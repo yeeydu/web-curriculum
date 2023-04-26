@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "My Portfolio",
+        "description": "This is my recent project; my own portfolio created with Next.js, Tailwind in  Vercel platform",
+        "image": "images/yeeyson-portfolio.png",
+        "github": "https://github.com/yeeydu/my_portfolio",
+        "link": "https://yeeysonduarte-portfolio.vercel.app/",
+        "date": "2023-04-22T18:25"
+    },
+    {
+        "id": "2",
+        "name": "André Cristina",
+        "description": "A gardener in Algarve with a list of services for the community with over 35 years of experience.",
+        "image": "images/andre.jpg",
+        "github": "https://github.com/yeeydu",
+        "link": "https://andrecristina.com/",
+        "date": "2022-08-22T10:20"
+    },
+    {
+        "id": "3",
+        "name": "Email and SMS Manager",
+        "description": "At my internship I made an Email and SMS Management and sending of notifications app with React and C#/.Net API. This the link to the React project code.",
+        "image": "images/notification.png",
+        "github": "https://github.com/yeeydu/Notifications-React-Project",
+        "link": "",
+        "date": "2022-09-21T14:30"
+    },
+    {
+        "id": "4",
+        "name": "My Course Final Project",
+        "description": "This was my web & mobile course final project, it was a team work. This was a PHP, Bootstrap and Javascript made. Unfortunately the source code is private in github for owner protection.",
+        "image": "images/diogopinto.jpg",
+        "github": "https://github.com/yeeydu/",
+        "link": "https://www.diogopinto.pt/",
+        "date": "2022-06-28T22:30"
+    }
+]

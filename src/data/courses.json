@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "React Native",
+        "description": "Crossplatform mobile development with react native.",
+        "academy": "Pluralsight",
+        "date": "2022-10-07T14:30"
+    },
+    {
+        "id": "2",
+        "name": ".Net and React",
+        "description": "Project development for my Internship with .Net, React and SQl",
+        "academy": "Microsoft Learn & FreeCodeCamp",
+        "date": "2022-09-22T14:30"
+    },
+    {
+        "id": "3",
+        "name": "Web & Mobile development",
+        "description": "A full course for web with tools and languages for fast and most common usage. PHP Laravel framewrok for Backend Framework, SQL, mySql Database Algorithm in Java, Web development Frontend Framework - Angular, HTML, CSS. Mobile development with Java for Android - Android Studio and Swift for IOS - Xcode. CMS Wordpress – Content Management System",
+        "academy": "Cesae Digital",
+        "date": "2022-02-20T17:30"
+    },
+    {
+        "id": "4",
+        "name": "Introduction to Cybersecurity",
+        "description": "Introductory knowledge of cybersecurity, including the global implications of cyber threats on industries, and why cybersecurity is a growing profession. Understand vulnerabilities and threat detection and defense. Also have insight into opportunities available with pursuing cybersecurity certifications.",
+        "academy": "Cisco Networking Academy",
+        "date": "2021-03-22T10:20"
+    },
+    {
+        "id": "5",
+        "name": "Linguagem de Programação web de Servidor - Laravel",
+        "description": "A full course for web with tools and languages for fast and most common usage. PHP Laravel framewrok for Backend Framework, SQL, mySql Database Algorithm in Java, Web development Frontend Framework - Angular, HTML, CSS. Mobile development with Java for Android - Android Studio and Swift for IOS - Xcode. CMS Wordpress – Content Management System",
+        "academy": "Cesae Digital",
+        "date": "2021-01-22T20:05"
+    },
+    {
+        "id": "6",
+        "name": "Curso de programação",
+        "description": "Program from scratch, master Javascript, understand HTML and learn algorithms. Yes, from scratch. You will understand the logic of code, how expert programmers think, and how to code a web game from start to finish. Write fluent code with HTML, CSS and JavaScript design algorithms Develop software with functions, objects, and events Program a video game for the web",
+        "academy": "Platzi",
+        "date": "2020-01-22T10:00"
+    }
+]
