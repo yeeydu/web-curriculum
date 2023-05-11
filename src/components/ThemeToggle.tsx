@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ThemeContext, themes } from "../theme/themeContext";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 
