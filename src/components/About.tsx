@@ -20,9 +20,9 @@ export default function About() {
           </p>
           <br />
           <p>
-            Getting to know much more of technology was my daily bread. I took a
-            web & Mobile course that boost my scatered knowledge more concistent
-            and pratical.
+            Getting to know much more of technology was my daily bread. I took
+            several online courses and a Web & Mobile course that boost my
+            scatered knowledge more concistent and pratical.
           </p>
         </div>
         <div className=" flex-row text-center items-center  mx-20 py-12    md:py-30">

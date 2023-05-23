@@ -24,7 +24,7 @@ export default function Projects() {
                     description={item.description}
                     github={item.github}
                   />
-                  <div className="text-sm ml-16 p-0 flex flex-row mb-4 ">
+                  <div className="text-sm ml-16 p-0 flex flex-row mb-4 w-8/12">
                     <Timer date={item.date} name={"project"} />
                   </div>
                 </div>
