@@ -1,6 +1,7 @@
 import React, { Key } from "react";
 import { Link, To } from "react-router-dom";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import Timer from "../counter/Timer";
 
 interface Props {
   id: Key | null | undefined;
@@ -8,6 +9,7 @@ interface Props {
   image: string | undefined;
   name: string;
   description: string;
+  date: string | undefined;
   github: string | undefined;
 }
 
@@ -48,6 +50,9 @@ export default function Card(props: Props) {
                     />
                   </Link>
                 </div>
+              </div>
+              <div className=" text-sm  flex flex-row pt-4">
+                <Timer date={props.date} name={"Project"} />
               </div>
             </div>
           </div>

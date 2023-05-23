@@ -23,10 +23,11 @@ export default function Projects() {
                     name={item.name}
                     description={item.description}
                     github={item.github}
+                    date={item.date}
                   />
-                  <div className="text-sm ml-16 p-0 flex flex-row mb-4 w-8/12">
-                    <Timer date={item.date} name={"project"} />
-                  </div>
+                  {/* <div className="flex flex-row mb-4 text-sm ml-16 p-0 w-8/12">
+                    <Timer date={item.date} name={"Project"} />
+                  </div> */}
                 </div>
               );
             })}

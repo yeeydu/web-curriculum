@@ -33,7 +33,7 @@ export default function Timer({ date, name }: Props) {
   }, [updateTimer]);
 
   return (
-    <div className="text-center border-y-2 border-slate-400 ml-6 p-1 m-1">
+    <div className="text-center border-y-2 border-slate-300 ml-6 p-1 m-1">
       <span className="px-1">{fromY} years</span>
       <span className="px-1">{fromM} months</span>
       <span className="px-1">{fromH} hours</span>

@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="flex border-0 vector-nav dark:bg-gray-900 w-full m-0 px-20 text-white p-4 justify-between">
       <h1 className="flex text-sm justify-start">© 2023 Web Curriculum</h1>
-      <div className="flex space-x-2 mb-1 justify-end">
+      <div className="flex space-x-2 mb-1 ">
         <a href="https://linktr.ee/yeeyson" rel="noreferrer" target="_blank">
           <SiLinktree
             className="hover:-translate-y-1 transition-transform cursor-pointer  text-neutral-200 dark:text-neutral-100"

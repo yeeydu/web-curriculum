@@ -2,6 +2,7 @@ import React from "react";
 import skills from "../data/skills.json";
 import courses from "../data/courses.json";
 import Timer from "../counter/Timer";
+import CardCourse from "./CardCourse";
 
 export default function About() {
   return (
@@ -61,24 +62,14 @@ export default function About() {
           <div className="flex flex-wrap mb-10 justify-center">
             {courses.map((item: any, id: any) => {
               return (
-                <div
-                  key={id}
-                  className="md:w-5/12 px-4 py-2 m-2 text-gray-700 rounded-xl  bg-gray-200 hover:bg-emerald-200"
-                >
-                  <h1 className=" font-bold mb-2 pt-2 border-b-2 border-slate-400">
-                    {item.name}
-                  </h1>
-                  <p className="font-semibold ">Academy: {item.academy}</p>
-                  <p className="font-semibold text-sm mb-1">
-                    Date: {item.date}
-                  </p>
-                  <p key={id} className="py-2">
-                    {item.description}
-                  </p>
-                  <div className=" text-sm  flex flex-row">
-                    <Timer date={item.date} name={"Course"} />
-                  </div>
-                </div>
+                <CardCourse
+                  id={item.id}
+                  name={item.name}
+                  academy={item.academy}
+                  date={item.date}
+                  description={item.description}
+                  link={item.link}
+                />
               );
             })}
           </div>
